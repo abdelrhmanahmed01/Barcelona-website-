@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+font-family:cairo;
+background-color:black;
+}
+div.main{
+width:600px; height:100%;
+padding:25px 40px;
+ margin-top:60px;margin-left:15%; margin-right:25%;
+background-image:url(stadium/barcelona_campnou1.jpg);
+background-size:cover;
+}
+div#header{
+padding-bottom:90px;
+}
+img#logo{
+float:left;
+width:80px; height:80px;
+}
+h1#logo_h{
+color:white;
+font-size:50px;
+float:left;
+position:absolute;
+top:47px; left:340px ;
+}
+label.inputs_label{
+color:white;
+font-size:15px;
+}
+h2.log_or_reg{
+color:white; float:left; padding-right:45px;
+}
+a.log_or_reg{
+text-decoration:none;
+color:white;
+}
+a.log_or_reg:hover{
+text-decoration:underline;
+text-decoration-color:#1061ee;
+color:#e5e5e5;
+}
+
+</style>
+
+</head>
+<body>
+<div class="main">
+<div id="header">
+<img id="logo" src="logo.png"></img>
+<h1 id="logo_h">F.C BARCELONA</h1>
+</div>
+<div class="log_or_reg">
+<h2 class="log_or_reg"><a class="log_or_reg" href="login.html">SIGN IN</a></h2>
+<h2 class="log_or_reg"><a class="log_or_reg" href="signup.html">SIGN UP </a></h2>
+</div>
+<br><br><br>
+
+
+<div class="login_inputs">
+<label class="inputs_label" style="font-size:25px;">USERNAME </label>
+<input id="username" type="text" placeholder=" enter your username" style="font-size:20px; width:100%; height:45px; border:none; border-radius:25px; opacity:80%;">
+<label class="inputs_label" style="font-size:25px; padding-right:180px;" >FIRST NAME</label>
+<label class="inputs_label" style="font-size:25px;" >LAST NAME</label><br>
+<input id="fname" type="text" placeholder=" enter your first name" style="font-size:20px; width:44%; height:45px; border:none; border-radius:25px; opacity:80%;" >
+<input id="lname" type="text" placeholder=" enter your last name" style="font-size:20px; margin-left:40px; width:47%; height:45px; border:none; border-radius:25px; opacity:80%" >
+<label class="inputs_label" style="font-size:25px;">E-MAIL </label>
+<input id="email" type="text" placeholder=" enter your e-mail" style="font-size:20px; width:100%; height:45px; border:none; border-radius:25px; opacity:80%;">
+<label class="inputs_label" style="font-size:25px; padding-right:180px;" >PASSWORD</label>
+<label class="inputs_label" style="font-size:25px;" >CONFIRM PASSWORD</label><br>
+<input id="pass" type="password" placeholder=" enter your password" style="font-size:20px; width:47%; height:45px; border:none; border-radius:25px; opacity:80%;" >
+<input id="cpass" type="password" placeholder=" re-enter your password" style="font-size:20px; margin-left:40px; width:44%; height:45px; border:none; border-radius:25px; opacity:80%" >
+<label class="inputs_label" style="font-size:30px; padding-right:160px;" >AGE</label>
+<label class="inputs_label" style="font-size:30px;" >BIRTH OF DATE</label><br>
+<input id="age" type="text" placeholder=" age"  style=" font-size:20px; width:10%; height:45px; border:none; border-radius:15px; opacity:80%;">
+<input id="day" type="text" placeholder="day"  style=" margin-left:150px; font-size:20px; width:10%; height:45px; border:none; border-radius:15px; opacity:80% ">
+<input id="month" type="text" placeholder=" month"  style=" font-size:20px; width:10%; height:45px; border:none; border-radius:15px; opacity:80%">
+<input id="year" type="text" placeholder=" year"  style=" font-size:20px; width:10%; height:45px; border:none; border-radius:15px; opacity:80%"><br>
+<label class="inputs_label" style="font-size:20px;" >COUNTRY</label>
+<form style="padding-bottom:55px;">
+<select>
+<option value="EGYPT">EGYPT</option>
+<option value="USA">USA</option>
+<option value="UK">UK</option>
+<option value="FRANCE">FRANCE</option>
+<option value="ITALY">ITALY</option>
+<option value="GERMANY">GERMANY</option>
+<option value="SAUDI ARABIA">SAUDI ARABIA</option>
+<option value="UAE">UAE</option>
+<option value="SPAIN">SPAIN</option>
+</select>
+</form>
+
+<button id="login_button2" style=" background-color:#1061ee; color:white; width:100%; height:45px; border:none; border-radius:25px;"><a href="home.html" style="color:white; text-decoration:none; font-size:22px;">SIGN UP</a></button>
+</div><br><br><br><br><br><br>
+</div>
+
+
+
+
+
+</body>
+</html>

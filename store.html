@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <style>
+		body{
+		font-family:cairo;
+		background-color:#011132;
+		}
+	    
+     div.header{
+         width: 100%; height: 60px;
+         background-color: #011132;  
+     }
+     .firstmenu{
+	 	 margin-right:10%
+         display: inline-block;                 
+     }
+     a.firstmenu{   
+         text-decoration: none; color: white;
+     }
+     ul.firstlist {
+         float:left;
+     }
+     li.firstmenu{
+        list-style-type: none;
+        float:left;
+         padding:0px 10px;
+     }
+     li:hover{
+         background-color:#041b4a;
+     }
+     
+     li.secondmenu{
+         list-style-type: none;
+     }
+     a.secondmenu{
+         text-decoration: none;   
+     }
+     
+     div.content{
+         position: absolute;
+         
+		 top:11%;
+         overflow: hidden;
+         max-height: 0;      
+     }
+     div.drop{
+         padding: :0;
+         
+     }
+     div.drop ul{
+         width: 100%;
+         padding: 0; margin: 0;
+     }
+     .drop ul li a{
+         padding: 10px 20px;
+         
+     }
+     
+     .menu ul li:hover .content{
+         background-color: #041538;
+         right:14.56%;
+         max-height: 400px;
+         transition: max-height .6s ease-in;
+         ~webkit: max-height .6s ease-in;
+         ~moz: max-height .6s ease-in;
+        }
+     ul.firstlist{
+	 margin-left:10%; margin-right:10%;
+     float:right;
+     }
+	 #club_name{
+	 font-size:25px;
+	 float:left;
+	 padding-left:20px;
+	 color:white;
+	 line-height:22px;
+	 }
+	 a.firstmenu{
+	 font-size:17px;
+	 }
+	 a.firstmenu:hover{
+	 color:#fcc52c;
+	 }
+	 a.secondmenu{
+	 color:white;
+	 font-size:17px;
+	 }
+	 a.secondmenu:hover{
+	 color:#fcc52c;
+	 }
+		
+		
+		div.social{
+		background-color:#011132;
+		}
+		img.social{
+		margin-left:4%;
+		padding:10px 15px 20px 0px;
+		width:8%;
+		}
+		div.social{
+		width:1045px;
+		}
+		img.social:hover{
+		width:9%;
+		}
+		h3.social{
+		color:lightgrey;
+		font-size:20px;
+		padding:10px;
+		}
+		div.store{
+		margin-left:10%;
+		margin-right:10%;
+		}
+		table{
+		margin-left:7%; margin-right:7%;
+		}
+		img.store{
+		border:none;
+		border-radius:20px;
+		width:90%;
+		}
+		img.third{
+		margin-left:27%;
+		border:none;
+		border-radius:20px;
+		width:65%;
+		}
+		td.homec{
+		text-align:center;
+		}
+		img.store:hover{
+		width:97%;
+		}
+		img.third:hover{
+		width:72%;
+		}
+		hr{
+		color:white;
+		}
+		h6{
+		text-align:center;
+		font-size:16px;
+		}
+		h6.thirdc{
+		color:white;
+		margin-left:20%
+		}
+		img.gk{
+		margin-left:12%;
+		border:none;
+		border-radius:20px;
+		width:90%;;
+		}
+		img.gk:hover{
+		width:95%;
+		}
+		h6.gkc{
+		color:white;
+		margin-left:12%
+		}
+		img.training{
+		border:none;
+		border-radius:20px;
+		width:90%;
+		}
+		img.training:hover{
+		width:95%;
+		}
+		h6.trainingc{
+		color:white;
+		margin-left:8%
+		}
+		img.other{
+		margin-left:10%;
+		border:none;
+		border-radius:20px;
+		width:200px;
+		}
+		img.other:hover{
+		width:220px;
+		}
+		h6{
+		text-align:center;
+		}
+  
+        </style>
+    <body>
+     <div class="header">
+  	<div id="logo" style="margin-left:30px">
+	 <img src="logo.png" style="float:left; margin-top:5px;margin-left:10%; width:50px; height:50px;"></img>
+	 <h1 id="club_name"> F.C BARCELONA</h1>
+	</div>
+    <nav class="menu">
+    <ul class="firstlist">
+        <li class="firstmenu"><a class="firstmenu" href="home.html" target="-blank">HOME</a></li>
+		   <li class="firstmenu"><a class="firstmenu" href="store.html">STORE</a></li>
+            <li class="firstmenu"><a class="firstmenu" href="#">MORE ...</a>
+            <div class="content">
+             <div class="drop">
+              <ul>
+                 <li class="secondmenu"><a class="secondmenu" href="players.html">PLAYERS</a> </li>
+				 <li class="secondmenu"><a class="secondmenu" href="laliga.html">LA LIGA</a> </li>
+                 <li class="secondmenu"><a class="secondmenu" href="#">CONTACT</a> </li>
+              </ul>
+                </div>
+            </div>
+        </li>
+         <li class="firstmenu"><a class="firstmenu" href="#">ABOUT</a></li>
+      </ul>
+    </div> 
+	    </nav>
+        <div class="hero">
+	 <img src="stadium/stadium0.jpg" width="100%" height="250" ></img>
+	 </div>	 
+	 <div class="home" style="background-color:#11347a">
+	 <h1 class="home" style="text-align:center; color:white;">HOME KIT<h1>
+	 <table class="home">
+	 <tr>
+     <td><img class="store" src="store/home/full.jpg"></img></td>
+	 <td><img class="store" src="store/home/shirt.jpg"></img></td>
+	 <td><img class="store" src="store/home/short.jpg"></img></td>
+	 <td><img class="store" src="store/home/socks.jpg"></img></td>
+	 </tr>
+	 <tr>
+     <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 </table>
+	 <hr>
+	 <h1 class="away" style="text-align:center; color:white;">AWAY KIT<h1>
+	 <table class="away">
+	 <tr>
+     <td><img class="store" src="store/away/full.jpg"></img></td>
+	 <td><img class="store" src="store/away/shirt.jpg"></img></td>
+	 <td><img class="store" src="store/away/short.jpg"></img></td>
+	 <td><img class="store" src="store/away/socks.jpg"></img></td>
+	 </tr>
+	 <tr>
+     <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 </table>
+	 <hr>
+	 <h1 class="third" style="text-align:center; color:white;">AWAY KIT<h1>
+	 <table class="third">
+	 <tr>
+     <td><img class="third" src="store/third/full.jpg"></img></td>
+	 <td><img class="third" src="store/third/shirt.jpg"></img></td>
+	 <td><img class="third" src="store/third/short.jpg"></img></td>
+	 </tr>
+	 <tr>
+     <td><h6 class="thirdc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 class="thirdc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td><h6 class="thirdc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 </table>
+	 </table>
+	 <hr>
+	 <h1 class="gk" style="text-align:center; color:white;">GOALKEEPER KIT<h1>
+	 <table class="third">
+	 <tr>
+     <td><img class="gk" src="store/goalkeeper/shirt.jpg"></img></td>
+	 <td><img class="gk" src="store/goalkeeper/shirt2.jpg"></img></td>
+	 <td><img class="gk" src="store/goalkeeper/gloves1.jpg"></img></td>
+	 <td><img class="gk" src="store/goalkeeper/gloves2.jpg"></img></td>
+	 </tr>
+	 <tr>
+     <td class="gkc"><h6 class="gkc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td class="gkc"><h6 class="gkc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td class="gkc"><h6 class="gkc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td class="gkc"><h6 class="gkc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 </table>
+	 <hr>
+	 <h1 class="training" style="text-align:center; color:white;">training KIT<h1>
+	 <table class="third">
+	 <tr>
+     <td><img class="training" src="store/training/tracksuit.jpg"></img></td>
+	 <td><img class="training" src="store/training/traning_jacket.jpg"></img></td>
+	 <td><img class="training" src="store/training/traning_trouser.jpg"></img></td>
+	 <td><img class="training" src="store/training/shirt.jpg"></img></td>
+	 <td><img class="training" src="store/training/short.jpg"></img></td>
+	 </tr>
+	 <tr>
+     <td ><h6 class="trainingc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="trainingc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="trainingc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="trainingc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="trainingc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 </table>
+	 <hr>
+	 <h1 class="other" style="text-align:center; color:white;">OTHERS<h1>
+	 <table class="other">
+	 <tr>
+     <td><img class="other" src="store/other/home_scarf.jpg"></img></td>
+	 <td><img class="other" src="store/other/away_scarf.jpg"></img></td>
+	 <td><img class="other" src="store/other/bottle.jpg"></img></td>
+	 <td><img class="other" src="store/other/mask.jpg"></img></td>
+	 </tr>
+	 <tr>
+     <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 <tr>
+	 <td><img class="other" src="store/other/bag2.jpg"></img></td>
+	  <td><img class="other" src="store/other/ball.jpg"></img></td>
+     <td><img class="other" src="store/other/cap.jpg"></img></td>
+	 <td><img class="other" src="store/other/cap2.jpg"></img></td>
+
+	 </tr>
+	 <tr>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 <td ><h6 class="otherc" style="color:white;">PRICE 3000 L.E<h6></td>
+	 </tr>
+	 </table>
+	 
+	 
+	 </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+
+	<div class="social">
+	<h3 align="center" class="social">CONTACT US<h3>
+	<a href="www.google.com"><img class="social" src="social/facebook.png"></img></a>
+	<a href="www.google.com"><img class="social" src="social/twitter.png"></img></a>
+	<a href="www.google.com"><img class="social" src="social/insta.png"></img></a>
+	<a href="www.google.com"><img class="social" src="social/youtube.png"></img></a>
+	</div>
+	<a href="slide.html" target="-blank">a</a>
+   </body>
+</html>

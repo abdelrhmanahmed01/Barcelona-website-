@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+</header>
+<style>
+body{
+		font-family:cairo;
+		background-color:#d9d9d9;
+		}
+div.header{
+         width: 100%; height: 60px;
+         background-color: #011132;  
+     }
+     .firstmenu{
+	 	 margin-right:10%
+         display: inline-block;                 
+     }
+     a.firstmenu{   
+         text-decoration: none; color: white;
+     }
+     ul.firstlist {
+         float:left;
+     }
+     li.firstmenu{
+        list-style-type: none;
+        float:left;
+         padding:0px 10px;
+     }
+     li:hover{
+         background-color:#041b4a;
+     }
+     
+     li.secondmenu{
+         list-style-type: none;
+     }
+     a.secondmenu{
+         text-decoration: none;   
+     }
+     
+     div.content{
+         position: absolute;
+         
+		 top:9.6%;
+         overflow: hidden;
+         max-height: 0;      
+     }
+     div.drop{
+         padding: :0;
+         
+     }
+     div.drop ul{
+         width: 100%;
+         padding: 0; margin: 0;
+     }
+     .drop ul li a{
+         padding: 10px 20px;
+         
+     }
+     
+     .menu ul li:hover .content{
+         background-color: #041538;
+         right:14.8%;
+         max-height: 400px;
+         transition: max-height .6s ease-in;
+         ~webkit: max-height .6s ease-in;
+         ~moz: max-height .6s ease-in;
+        }
+     ul.firstlist{
+	 margin-left:10%; margin-right:10%;
+     float:right;
+     }
+	 #club_name{
+	 font-size:25px;
+	 float:left;
+	 padding-left:20px;
+	 color:white;
+	 line-height:22px;
+	 }
+	 a.firstmenu{
+	 font-size:17px;
+	 }
+	 a.firstmenu:hover{
+	 color:#fcc52c;
+	 }
+	 a.secondmenu{
+	 color:white;
+	 font-size:17px;
+	 }
+	 a.secondmenu:hover{
+	 color:#fcc52c;
+	 } 
+	 
+	 
+	 div.players{
+		margin-left:10%;
+		margin-right:10%;
+		}
+		img.players{
+		border:none;
+		border-radius:20px;
+		width:90%;
+		}
+		img.players:hover{
+		width:97%;
+		}
+	 
+	 
+	 
+	 
+	 
+	 
+	    div.social{
+		background-color:#011132;
+		}
+		img.social{
+		margin-left:4%;
+		padding:10px 15px 20px 0px;
+		width:8%;
+		}
+		div.social{
+		width:1045px;
+		}
+		img.social:hover{
+		width:9%;
+		}
+		h3.social{
+		color:lightgrey;
+		font-size:20px;
+		padding:10px;
+		}
+		</style>
+		</header>
+		<body>
+		<div class="header">
+  	<div id="logo" style="margin-left:30px">
+	 <img src="logo.png" style="float:left; margin-top:5px;margin-left:10%; width:50px; height:50px;"></img>
+	 <h1 id="club_name"> F.C BARCELONA</h1>
+	</div>
+    <nav class="menu">
+    <ul class="firstlist">
+        <li class="firstmenu"><a class="firstmenu" href="home.html">HOME</a></li>
+		   <li class="firstmenu"><a class="firstmenu" href="store.html">STORE</a></li>
+            <li class="firstmenu"><a class="firstmenu" href="#">MORE ...</a>
+            <div class="content">
+             <div class="drop">
+              <ul>
+                 <li class="secondmenu"><a class="secondmenu" href="palyers.html">PLAYERS</a> </li>
+				 <li class="secondmenu"><a class="secondmenu" href="laliga.html">LA LIGA</a> </li>
+                 <li class="secondmenu"><a class="secondmenu" href="#">CONTACT</a> </li>
+              </ul>
+                </div>
+            </div>
+        </li>
+         <li class="firstmenu"><a class="firstmenu" href="#">ABOUT</a></li>
+      </ul>
+    </div> 
+	    </nav>
+		
+		
+		<div class="players">
+		<h1 class="team" align="center" > our team <h1>
+		<table>
+		<tr class="players">
+		<td><img class="players" src="players/koeman.jpg"></td>
+		<td><img class="players" src="players/messi.jpg"></td>
+		<td><img class="players" src="players/griezmann.jpg"></td>
+		<td><img class="players" src="players/dembele.jpg"></td>
+		</tr>
+		<tr class="players">
+		<td><img class="players" src="players/dejong.jpg"></td>
+		<td><img class="players" src="players/arthur.jpg"></td>
+		<td><img class="players" src="players/busquets.jpg"></td>
+		<td><img class="players" src="players/alba.jpg"></td>
+		</tr>
+		<tr class="players">
+		<td><img class="players" src="players/lenglet.jpg"></td>
+		<td><img class="players" src="players/pique.jpg"></td>
+		<td><img class="players" src="players/roberto.jpg"></td>
+		<td><img class="players" src="players/terstegen.jpg"></td>
+		</tr>
+		</table>
+		</div>
+		
+		
+		
+		
+		
+		<div class="social">
+	<h3 align="left" class="social">|  CONTACT US<h3>
+	<a href="www.google.com"><img class="social" src="social/facebook.png"></img></a>
+	<a href="www.google.com"><img class="social" src="social/twitter.png"></img></a>
+	<a href="www.google.com"><img class="social" src="social/insta.png"></img></a>
+	<a href="www.google.com"><img class="social" src="social/youtube.png"></img></a>
+	</div>
+		</body>
+		</html>
